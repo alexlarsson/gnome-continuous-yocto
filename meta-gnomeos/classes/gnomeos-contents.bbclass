@@ -4,7 +4,6 @@
 inherit image
 
 PACKAGE_INSTALL += " \
-		task-gnomeos-contents-runtime \
 		ldd \
 		libltdl \
 		libicule \
@@ -61,13 +60,16 @@ EOF
 EOF
 
 	# Ensure we're set up for systemd
+        mkdir -p ${IMAGE_ROOTFS}/etc/pam.d
         echo "session optional pam_systemd.so" >> ${IMAGE_ROOTFS}/etc/pam.d/common-session 
 
 	# Adjustments for /etc -> {/var,/run} here
 	ln -sf /run/resolv.conf ${IMAGE_ROOTFS}/etc/resolv.conf
 
-	# Fix un-world-readable config file; no idea why this isn't. 
-	chmod a+r ${IMAGE_ROOTFS}/etc/securetty
+	# Fix un-world-readable config file; no idea why this isn't.
+	if test -f ${IMAGE_ROOTFS}/etc/securetty; then
+          chmod a+r ${IMAGE_ROOTFS}/etc/securetty
+        fi
 
 	# Clear out the default fstab; everything we need right now is mounted
 	# in the initramfs.

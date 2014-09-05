@@ -5,7 +5,16 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=3f40d7994397109285ec7b81fdeb3b58 \
                     file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
 
-PACKAGE_INSTALL += "\
-		task-gnomeos-contents-runtime \
-                "
 inherit gnomeos-contents
+
+PACKAGE_INSTALL += "\
+		task-gnomeos-contents-platform \
+		task-gnomeos-contents-sdk \
+		libltdl-dev \
+		libgcc-dev \
+		glibc-dev \
+		glibc-dbg \
+		linux-libc-headers-dev \
+		"
+
+DEPENDS += "task-gnomeos-contents-platform task-gnomeos-contents-sdk "
