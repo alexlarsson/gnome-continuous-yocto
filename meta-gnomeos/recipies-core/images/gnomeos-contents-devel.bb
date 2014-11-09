@@ -11,7 +11,9 @@ PACKAGE_INSTALL += "\
 		task-gnomeos-contents-devel \
 		libltdl-dev \
 		libgcc-dev \
+		glibc-dev \
 		glibc-dbg \
+		linux-libc-headers-dev \
 		"
 
 DEPENDS += " task-gnomeos-contents-devel "
