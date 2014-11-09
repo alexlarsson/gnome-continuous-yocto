@@ -127,4 +127,8 @@ RDEPENDS_${PN} += "\
          ca-certificates \
          libgcrypt \
 	 perl-module-text-csv \
+         libpng \
+         iso-codes \
+         lcms \
+         json-c \
 	 "

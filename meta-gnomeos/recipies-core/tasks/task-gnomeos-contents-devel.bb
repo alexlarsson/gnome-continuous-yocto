@@ -107,4 +107,7 @@ RDEPENDS_${PN} += "     \
 	 libelf-dev \
 	 libasm-dev \
 	 libdw-dev \
+         gperf \
+         libpng-dev \
+         lcms-dev \
 	 "
