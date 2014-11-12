@@ -118,6 +118,7 @@ RDEPENDS_${PN} += "     \
          gperf \
          libpng-dev \
          libxml2-dev \
+         libxml2-python \
          libxslt-dev \
          lcms-dev \
 	 strace \
