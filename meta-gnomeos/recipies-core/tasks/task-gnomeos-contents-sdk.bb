@@ -131,6 +131,7 @@ RDEPENDS_${PN} += "     \
          libxml2-dev \
          libxml2-python \
          libxslt-dev \
+         libxslt-bin \
          lcms-dev \
 	 strace \
          chrpath \
