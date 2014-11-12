@@ -33,12 +33,23 @@ RDEPENDS_${PN} += "     \
 	 intltool \
 	 libtool \
 	 libtool-dev \
+         perl-dev \
+         perl-module-env \
+         perl-module-getopt-std \
+         perl-module-getopt-long \
+         perl-module-base \
 	 perl-module-re \
 	 perl-module-safe \
 	 perl-module-text-wrap \
 	 perl-module-file-find \
 	 perl-module-encode \
 	 perl-module-pod-text \
+         perl-module-version \
+         perl-module-unicore \
+         perl-module-utf8 \
+         perl-module-unicode-normalize \
+         perl-module-unicode-collate \
+         libxml-parser-perl-dev \
 	 perl-modules \
 	 pkgconfig \
 	 findutils \
