@@ -29,7 +29,6 @@ RDEPENDS_${PN} += "\
 	 glibc-locale \
 	 ncurses-terminfo-base \
 	 cpio \
-	 dejavu-fonts-ttf \
 	 libvorbis \
 	 speex \
 	 alsa-lib \
@@ -72,7 +71,6 @@ RDEPENDS_${PN} += "\
 	 speex \
 	 nspr \
 	 krb5 \
-	 dejavu-fonts-ttf \
 	 nss-altfiles \
 	 llvm \
 	 sqlite3 libsqlite3 \
