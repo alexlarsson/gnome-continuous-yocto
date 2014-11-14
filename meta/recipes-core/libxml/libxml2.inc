@@ -11,7 +11,7 @@ LIC_FILES_CHKSUM = "file://Copyright;md5=2044417e2e5006b65a8b9067b683fcf1 \
 
 DEPENDS_class-nativesdk = "nativesdk-python"
 DEPENDS_class-native = "python-native"
-DEPENDS =+ "zlib"
+DEPENDS =+ "python zlib"
 
 SRC_URI = "ftp://xmlsoft.org/libxml2/libxml2-${PV}.tar.gz;name=libtar \
            file://libxml-64bit.patch \
