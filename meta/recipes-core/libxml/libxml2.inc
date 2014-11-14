@@ -36,7 +36,7 @@ do_configure_prepend () {
 	sed -i -e '/.*ansidecl.h.*/d' ${S}/configure.in
 }
 
-do_configure_prepend_class-nativesdk () {
+do_configure_prepend () {
 	# Ensure we get the correct site-packages path
 	export PYTHON_SITE_PACKAGES="${PYTHON_SITEPACKAGES_DIR}"
 }
