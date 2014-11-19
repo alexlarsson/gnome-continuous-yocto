@@ -12,7 +12,6 @@ PACKAGE_INSTALL += " \
 DEPENDS += "task-gnomeos-contents-runtime makedevs-native \
 	virtual/fakeroot-native \
 	"
-
 do_rootfs[umask] = "022"
 
 IMAGE_FSTYPES = "tar.gz"
@@ -222,6 +221,11 @@ EOF
         mv ${IMAGE_ROOTFS}/lib .
         mv ${IMAGE_ROOTFS}/bin .
         mv ${IMAGE_ROOTFS}/sbin .
+
+        if ${@bb.utils.contains('IMAGE_FEATURES', 'package-management', 'true', 'false', d)}; then
+           mkdir -p var/lib
+           mv ${IMAGE_ROOTFS}/var/lib/rpm ./var/lib
+        fi
 
 	# Ok, let's globally fix permissions in the OE content;
 	# everything is root owned, all directories are u=rwx,g=rx,og=rx.
