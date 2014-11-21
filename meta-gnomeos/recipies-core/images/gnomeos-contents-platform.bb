@@ -8,6 +8,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=3f40d7994397109285ec7b81fdeb3
 inherit gnomeos-contents
 
 IMAGE_FEATURES += "package-management"
+ROOTFS_PKGMANAGE = "rpm"
 
 PACKAGE_INSTALL += "\
 		task-gnomeos-contents-platform \
