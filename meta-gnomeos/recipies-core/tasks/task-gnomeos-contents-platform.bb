@@ -77,6 +77,7 @@ RDEPENDS_${PN} += "\
          libgcrypt \
          libxml2 \
          libxslt \
+         libtasn1 \
          libpng \
          iso-codes \
          lcms \

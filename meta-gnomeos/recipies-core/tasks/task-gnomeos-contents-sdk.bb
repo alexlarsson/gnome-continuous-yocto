@@ -75,7 +75,6 @@ RDEPENDS_${PN} += "     \
 	 llvm-dev \
 	 libxml-parser-perl \
 	 gettext-dev \
-	 libpci-dev \
 	 bzip2-dev \
 	 libbz2-dev \
 	 xz-dev \
@@ -90,7 +89,6 @@ RDEPENDS_${PN} += "     \
 	 libexif-dev \
 	 libtool-dev \
 	 libsndfile1-dev \
-	 libatomics-ops-dev \
 	 alsa-dev \
 	 libogg-dev \
 	 libvorbis-dev \
@@ -114,7 +112,6 @@ RDEPENDS_${PN} += "     \
 	 e2fsprogs-dev \
 	 krb5-dev \
          llvm-dev \
-	 boost-dev \
 	 libsqlite3-dev \
 	 expat-dev \
 	 intltool \
