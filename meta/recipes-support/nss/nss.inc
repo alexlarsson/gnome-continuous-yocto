@@ -32,7 +32,7 @@ inherit siteinfo
 PR = "r0"
 DEPENDS = "sqlite3 nspr zlib nss-native"
 DEPENDS_class-native = "sqlite3-native nspr-native zlib-native"
-RDEPENDS_${PN} = "perl"
+RDEPENDS_${PN}-tools = "perl"
 
 TD = "${S}/tentative-dist"
 TDS = "${S}/tentative-dist-staging"
@@ -195,9 +195,10 @@ pkg_postinst_${PN} () {
     signlibs.sh
 }
 
+PACKAGES =+ "${PN}-tools-dbg ${PN}-tools"
+
 FILES_${PN} = "\
     ${sysconfdir} \
-    ${bindir} \
     ${libdir}/lib*.chk \
     ${libdir}/lib*.so \
     "
@@ -207,8 +208,13 @@ FILES_${PN}-dev = "\
     ${includedir}/* \
     "
 FILES_${PN}-dbg = "\
-    ${bindir}/.debug/* \
     ${libdir}/.debug/* \
+    "
+FILES_${PN}-tools-dbg = "\
+    ${bindir}/.debug \
+    "
+FILES_${PN}-tools = "\
+    ${bindir} \
     "
 
 BBCLASSEXTEND = "native nativesdk"
