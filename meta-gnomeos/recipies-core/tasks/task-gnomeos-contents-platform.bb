@@ -29,11 +29,8 @@ RDEPENDS_${PN} += "\
 	 glibc-locale \
 	 ncurses-terminfo-base \
 	 cpio \
-	 libvorbis \
-	 speex \
 	 alsa-lib \
 	 cracklib \
-	 pciutils \
 	 base-files \
 	 base-passwd \
 	 update-alternatives-cworth \
@@ -68,7 +65,6 @@ RDEPENDS_${PN} += "\
 	 xz \
 	 ncurses \
 	 libvorbis \
-	 speex \
 	 nspr \
 	 krb5 \
 	 nss-altfiles \

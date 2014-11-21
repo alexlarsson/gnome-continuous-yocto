@@ -93,7 +93,6 @@ RDEPENDS_${PN} += "     \
 	 libatomics-ops-dev \
 	 alsa-dev \
 	 libogg-dev \
-	 speex-dev \
 	 libvorbis-dev \
 	 libssp-dev \
 	 libstdc++-dev \
