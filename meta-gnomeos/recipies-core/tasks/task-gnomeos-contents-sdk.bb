@@ -102,6 +102,7 @@ RDEPENDS_${PN} += "     \
 	 libgcrypt-dev \
 	 libattr-dev \
 	 libacl-dev \
+	 nettle-dev \
 	 gnutls-dev \
 	 icu-dev \
 	 curl-dev \
