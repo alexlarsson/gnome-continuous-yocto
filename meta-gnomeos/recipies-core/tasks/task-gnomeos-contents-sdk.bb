@@ -136,4 +136,5 @@ RDEPENDS_${PN} += "     \
          python-smartpm \
          smartpm \
          patch \
+         readline-dev \
 	 "
