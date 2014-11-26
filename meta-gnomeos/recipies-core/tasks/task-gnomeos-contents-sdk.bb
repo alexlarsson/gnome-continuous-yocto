@@ -89,7 +89,6 @@ RDEPENDS_${PN} += "     \
 	 libexif-dev \
 	 libtool-dev \
 	 libsndfile1-dev \
-	 alsa-dev \
 	 libogg-dev \
 	 libvorbis-dev \
 	 libssp-dev \
@@ -110,7 +109,6 @@ RDEPENDS_${PN} += "     \
 	 ncurses-dev \
 	 db-dev \
 	 cracklib-dev \
-	 e2fsprogs-dev \
 	 krb5-dev \
          llvm-dev \
 	 libsqlite3-dev \
@@ -137,4 +135,9 @@ RDEPENDS_${PN} += "     \
          smartpm \
          patch \
          readline-dev \
+         popt-dev \
+         liblzma-dev \
+         gmp-dev \
+         libarchive-dev \
+         openssl-dev \
 	 "

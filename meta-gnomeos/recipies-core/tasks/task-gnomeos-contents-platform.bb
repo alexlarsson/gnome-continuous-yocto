@@ -29,7 +29,6 @@ RDEPENDS_${PN} += "\
 	 glibc-locale \
 	 ncurses-terminfo-base \
 	 cpio \
-	 alsa-lib \
 	 cracklib \
 	 base-files \
 	 base-passwd \
@@ -82,4 +81,9 @@ RDEPENDS_${PN} += "\
          iso-codes \
          lcms \
          json-c \
+         popt \
+         liblzma \
+         libarchive \
+         gmp \
+         libssl \
 	 "
