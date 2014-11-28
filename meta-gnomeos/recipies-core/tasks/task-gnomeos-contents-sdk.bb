@@ -49,6 +49,29 @@ RDEPENDS_${PN} += "     \
          perl-module-utf8 \
          perl-module-unicode-normalize \
          perl-module-unicode-collate \
+         perl-module-locale \
+         perl-module-locale-codes \
+         perl-module-locale-codes-constants \
+         perl-module-locale-codes-country \
+         perl-module-locale-codes-country-codes \
+         perl-module-locale-codes-country-retired \
+         perl-module-locale-codes-currency \
+         perl-module-locale-codes-currency-codes \
+         perl-module-locale-codes-currency-retired \
+         perl-module-locale-codes-langext \
+         perl-module-locale-codes-langext-codes \
+         perl-module-locale-codes-langext-retired \
+         perl-module-locale-codes-langfam \
+         perl-module-locale-codes-langfam-codes \
+         perl-module-locale-codes-langfam-retired \
+         perl-module-locale-codes-language \
+         perl-module-locale-codes-language-codes \
+         perl-module-locale-codes-language-retired \
+         perl-module-locale-codes-langvar \
+         perl-module-locale-codes-langvar-codes \
+         perl-module-locale-codes-langvar-retired \
+         perl-module-locale-codes-script \
+         perl-module-locale-codes-script-codes \
          libxml-parser-perl-dev \
 	 perl-modules \
 	 pkgconfig \
