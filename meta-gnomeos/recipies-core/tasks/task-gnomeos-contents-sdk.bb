@@ -140,4 +140,6 @@ RDEPENDS_${PN} += "     \
          gmp-dev \
          libarchive-dev \
          openssl-dev \
+         gcov \
+         libgcov-dev \
 	 "
