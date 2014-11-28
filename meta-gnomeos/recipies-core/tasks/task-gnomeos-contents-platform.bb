@@ -41,6 +41,8 @@ RDEPENDS_${PN} += "\
 	 grep \
 	 gawk \
 	 gzip \
+	 zip \
+	 unzip \
 	 less \
 	 curl \
 	 tzdata \

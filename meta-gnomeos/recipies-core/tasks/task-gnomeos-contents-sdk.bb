@@ -69,7 +69,6 @@ RDEPENDS_${PN} += "     \
 	 git \
 	 git-perltools \
 	 gdb \
-	 zip \
 	 ruby \
 	 cmake \
 	 llvm-dev \
