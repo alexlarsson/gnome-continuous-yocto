@@ -855,7 +855,6 @@ RDEPENDS_${PN} += "\
          iso-codes-locale-dv \
          iso-codes-locale-dz \
          iso-codes-locale-el \
-         iso-codes-locale-en \
          iso-codes-locale-eo \
          iso-codes-locale-es \
          iso-codes-locale-et \
