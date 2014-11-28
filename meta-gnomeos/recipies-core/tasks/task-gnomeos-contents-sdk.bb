@@ -164,4 +164,5 @@ RDEPENDS_${PN} += "     \
          openssl-dev \
          gcov \
          libgcov-dev \
+         iso-codes-dev \
 	 "
