@@ -88,6 +88,7 @@ RDEPENDS_${PN} += "\
          libarchive \
          gmp \
          libssl \
+         libatomics-ops \
          glibc-gconv-ansi-x3.110 \
          glibc-gconv-armscii-8 \
          glibc-gconv-asmo-449 \
