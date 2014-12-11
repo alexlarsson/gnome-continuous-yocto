@@ -166,4 +166,5 @@ RDEPENDS_${PN} += "     \
          libgcov-dev \
          iso-codes-dev \
          libatomics-ops-dev \
+         json-c-dev \
 	 "
