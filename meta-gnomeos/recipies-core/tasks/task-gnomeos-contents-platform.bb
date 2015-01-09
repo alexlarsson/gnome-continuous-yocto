@@ -68,6 +68,7 @@ RDEPENDS_${PN} += "\
          libpng \
          libsndfile1 \
          libvorbis \
+         libwebp \
          tiff \
          \
          icu \

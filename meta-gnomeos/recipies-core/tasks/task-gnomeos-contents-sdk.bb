@@ -92,6 +92,7 @@ RDEPENDS_${PN} += "     \
          libpng-dev \
          libsndfile1-dev \
          libvorbis-dev \
+         libwebp-dev \
          tiff-dev \
          \
          bzip2-dev \
