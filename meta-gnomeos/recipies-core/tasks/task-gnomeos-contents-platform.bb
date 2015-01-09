@@ -11,85 +11,93 @@ ALLOW_EMPTY_${PN} = "1"
 PR = "1"
 
 RDEPENDS_${PN} += "\
-	 util-linux-libuuid \
-	 which \
-	 libffi \
-	 tiff \
-	 libjpeg-turbo \
-	 libexif \
-	 libstdc++ \
-	 gnutls \
-	 libogg \
-	 libssp \
-	 glibc-gconvs \
-	 glibc-binaries \
-	 glibc-localedatas \
-	 glibc-charmaps \
-	 glibc-utils \
-	 glibc-locale \
-	 ncurses-terminfo-base \
-	 cpio \
-	 cracklib \
-	 base-files \
-	 base-passwd \
-	 update-alternatives-cworth \
-	 coreutils \
-	 sed \
-	 findutils \
-	 bash \
-	 tar \
-	 grep \
-	 gawk \
-	 gzip \
-	 zip \
-	 unzip \
-	 less \
-	 curl \
-	 tzdata \
-	 tzdata-africa \
-	 tzdata-americas \
-	 tzdata-antarctica \
-	 tzdata-arctic \
-	 tzdata-asia \
-	 tzdata-atlantic \
-	 tzdata-australia \
-	 tzdata-europe \
-	 tzdata-misc \
-	 tzdata-pacific \
-	 tzdata-posix \
-	 tzdata-right \
-	 libsndfile1 \
-	 icu \
-	 attr \
-	 acl \
-	 bzip2 \
-	 xz \
-	 ncurses \
-	 libvorbis \
-	 nspr \
-	 krb5 \
-	 nss-altfiles \
-	 llvm \
-	 sqlite3 libsqlite3 \
-	 expat \
-	 cyrus-sasl \
-	 elfutils \
-         ca-certificates \
+         glibc-gconvs \
+         glibc-binaries \
+         glibc-localedatas \
+         glibc-charmaps \
+         glibc-utils \
+         glibc-locale \
+         elfutils \
+         libffi \
+         libssp \
+         libstdc++ \
+         ncurses \
+         nspr \
+         gmp \
+         libatomics-ops \
+         popt \
+         util-linux-libuuid \
+         \
+         acl \
+         attr \
+         base-files \
+         base-passwd \
+         bash \
+         coreutils \
+         cpio \
+         cracklib \
+         curl \
+         findutils \
+         gawk \
+         grep \
+         krb5 \
+         less \
+         ncurses-terminfo-base \
+         nss-altfiles \
+         sed \
+         update-alternatives-cworth \
+         which \
+         \
+         bzip2 \
+         gzip \
+         libarchive \
+         liblzma \
+         tar \
+         unzip \
+         xz \
+         zip \
+         \
+         gnutls \
          libgcrypt \
+         libssl \
+         libtasn1 \
+         \
+         libexif \
+         libjpeg-turbo \
+         libogg \
+         libpng \
+         libsndfile1 \
+         libvorbis \
+         tiff \
+         \
+         icu \
+         ca-certificates \
+         iso-codes \
+         \
+         expat \
+         json-c \
          libxml2 \
          libxslt \
-         libtasn1 \
-         libpng \
-         iso-codes \
-         lcms \
-         json-c \
-         popt \
-         liblzma \
-         libarchive \
-         gmp \
-         libssl \
-         libatomics-ops \
+         \
+         cyrus-sasl \
+         llvm \
+         sqlite3 libsqlite3 \
          gdbm \
+         lcms \
+         \
+         tzdata \
+         tzdata-africa \
+         tzdata-americas \
+         tzdata-antarctica \
+         tzdata-arctic \
+         tzdata-asia \
+         tzdata-atlantic \
+         tzdata-australia \
+         tzdata-europe \
+         tzdata-misc \
+         tzdata-pacific \
+         tzdata-posix \
+         tzdata-right \
          glibc-gconv-ansi-x3.110 \
          glibc-gconv-armscii-8 \
          glibc-gconv-asmo-449 \
@@ -948,4 +956,4 @@ RDEPENDS_${PN} += "\
          iso-codes-locale-zh-hk \
          iso-codes-locale-zh-tw \
          iso-codes-locale-zu \
-	 "
+         "
