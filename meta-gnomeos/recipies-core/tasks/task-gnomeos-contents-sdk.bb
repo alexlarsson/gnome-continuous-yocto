@@ -111,6 +111,7 @@ RDEPENDS_${PN} += "     \
          openssl-dev \
          \
          cyrus-sasl-dev \
+         elfutils-binutils \
          elfutils-dev \
          expat-dev \
          gmp-dev \
