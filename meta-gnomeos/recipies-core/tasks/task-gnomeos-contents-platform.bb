@@ -81,7 +81,6 @@ RDEPENDS_${PN} += "\
          libxslt \
          \
          cyrus-sasl \
-         llvm \
          sqlite3 libsqlite3 \
          gdbm \
          lcms \

@@ -68,7 +68,6 @@ RDEPENDS_${PN} += "     \
          libffi-dev \
          libpam-dev \
          libssp-dev \
-         llvm-dev \
          util-linux-libuuid-dev \
          \
          cracklib-dev \
