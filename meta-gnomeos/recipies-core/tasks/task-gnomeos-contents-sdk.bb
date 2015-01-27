@@ -83,6 +83,7 @@ RDEPENDS_${PN} += "     \
          libstdc++-dev \
          ncurses-dev \
          nspr-dev \
+         nss-dev \
          \
          libexif-dev \
          libjpeg-turbo-dbg \
