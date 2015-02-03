@@ -85,6 +85,9 @@ RDEPENDS_${PN} += "\
          gdbm \
          lcms \
          \
+         python3-modules \
+         python3-misc \
+         \
          tzdata \
          tzdata-africa \
          tzdata-americas \
