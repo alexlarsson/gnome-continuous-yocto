@@ -50,6 +50,7 @@ RDEPENDS_${PN} += "     \
          pkgconfig \
          texinfo \
          valgrind \
+         valgrind-dev \
          \
          ruby \
          libxml-parser-perl \
