@@ -94,6 +94,7 @@ RDEPENDS_${PN} += "     \
          libsndfile1-dev \
          libvorbis-dev \
          libwebp-dev \
+         libtheora-dev \
          tiff-dev \
          flac-dev \
          speex-dev \
