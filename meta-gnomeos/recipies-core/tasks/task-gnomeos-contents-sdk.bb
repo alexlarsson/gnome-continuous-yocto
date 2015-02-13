@@ -95,6 +95,10 @@ RDEPENDS_${PN} += "     \
          libvorbis-dev \
          libwebp-dev \
          tiff-dev \
+         flac-dev \
+         speex-dev \
+         speex-bin \
+         libsamplerate0-dev \
          \
          bzip2-dev \
          libarchive-dev \

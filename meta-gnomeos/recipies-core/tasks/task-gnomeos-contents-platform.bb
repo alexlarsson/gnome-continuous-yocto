@@ -70,6 +70,9 @@ RDEPENDS_${PN} += "\
          libvorbis \
          libwebp \
          tiff \
+         libflac \
+         speex \
+         libsamplerate0 \
          \
          icu \
          ca-certificates \
